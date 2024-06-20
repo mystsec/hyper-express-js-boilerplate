@@ -1,0 +1,26 @@
+{
+  "name": "hyper-express-mongo-boilerplate",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Boilerplate for hyper-express/express apps.",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "hyper-express": "^6.16.3",
+    "live-directory": "^3.0.3",
+    "mongoose": "^8.4.1",
+    "nodemon": "^3.1.0",
+    "uws": "^200.0.0"
+  },
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mystsec",
+  "license": "MIT"
+}

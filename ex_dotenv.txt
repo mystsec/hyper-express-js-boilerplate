@@ -1,0 +1,7 @@
+db_username="your-mongodb-username"
+db_password="your-mongodb-password"
+db_host="mongodb-host"
+db_port="mongodb-port"
+db_database="mongodb-database"
+
+config=dev #controls which settings to use in config.js
