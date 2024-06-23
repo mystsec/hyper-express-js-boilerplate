@@ -1,11 +1,13 @@
 const { subtle } = globalThis.crypto;
 import crypto from "crypto";
 
+// Generates random hex string of given length
 export function random(len) {
   const buf = crypto.randomBytes(len);
   return buf.toString('hex');
 }
 
+// Hashes string using web crypto api digest() and returns as hex
 export async function digest(data, algorithm = 'SHA-256') {
   const ec = new TextEncoder();
   const digest = await subtle.digest(algorithm, ec.encode(data));
